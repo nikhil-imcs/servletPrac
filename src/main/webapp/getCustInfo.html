@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Get Customer Information</title>
+<link rel="stylesheet"
+	href="webjars/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+<h1>Get Customer Form</h1>
+<hr>
+<form class="form-inline" action="/ServletPrac/getCustomer.do" method="get">
+  <div class="form-group">
+    <label for="custId">Customer Id</label>
+    <input type="number" class="form-control" id="custId" placeholder="1" min="1" name="custId">
+  </div>
+  <button type="submit" class="btn btn-default">Get Customer</button>
+</form>
+</div><!-- end of container -->
+
+	<script type="text/javascript"
+		src="webjars/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript"
+		src="webjars/bootstrap/3.3.7/bootstrap.min.js"></script>
+</body>
+</html>
